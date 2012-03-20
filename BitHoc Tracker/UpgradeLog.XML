@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WM-ADHOC-TRACKER">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\WM-ADHOC-TRACKER\WM-ADHOC-TRACKER.sln">
+</Property><Property Name="User Options File" Value="C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\WM-ADHOC-TRACKER\WM-ADHOC-TRACKER.suo">
+</Property><Property Name="Date" Value="Monday, February 16, 2009">
+</Property><Property Name="Time" Value="15:24 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WM-ADHOC-TRACKER.sln" Description="File successfully backed up as C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\WM-ADHOC-TRACKER\WM-ADHOC-TRACKER.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="WM-ADHOC-TRACKER.suo" Description="File successfully backed up as C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\WM-ADHOC-TRACKER\WM-ADHOC-TRACKER.suo.old">
+</Event><Event ErrorLevel="1" Project="WM-ADHOC-TRACKER" Source="WM-ADHOC-TRACKER\WM-ADHOC-TRACKER.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="WM-ADHOC-TRACKER" Source="WM-ADHOC-TRACKER\WM-ADHOC-TRACKER.vcproj" Description="Project file successfully backed up as 'C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\WM-ADHOC-TRACKER\WM-ADHOC-TRACKER\WM-ADHOC-TRACKER.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="WM-ADHOC-TRACKER" Source="WM-ADHOC-TRACKER\WM-ADHOC-TRACKER.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="WM-ADHOC-TRACKER" Source="WM-ADHOC-TRACKER\WM-ADHOC-TRACKER.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="WM-ADHOC-TRACKER.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WM-ADHOC-TRACKER.sln" Description="Converted">
+</Event></UpgradeLog>

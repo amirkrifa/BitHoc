@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitHoc Search Engine", "TorrentF\BitHoc Search Engine.csproj", "{44DA18FE-0638-4284-BAF3-603DF8BDB25F}"
+EndProject
+Project("{B900F1C2-3D47-4FEC-85B3-04AAF18C3634}") = "BitHoc Search Engine v1.0", "BitHoc Search Engine v1.0\BitHoc Search Engine v1.0.vddproj", "{71366F5D-25D2-4719-AC9D-4D0B113F290E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyInstallCustomAction", "MyInstallCustomAction\MyInstallCustomAction.csproj", "{B1F1FA3E-AFF8-4CBE-B558-B8DEBE1A6604}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BitHocSearchEngineSetup", "BitHocSearchEngineSetup\BitHocSearchEngineSetup.vdproj", "{84438C8E-ABDE-4248-9986-2BFA74CBB64D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44DA18FE-0638-4284-BAF3-603DF8BDB25F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44DA18FE-0638-4284-BAF3-603DF8BDB25F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44DA18FE-0638-4284-BAF3-603DF8BDB25F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{44DA18FE-0638-4284-BAF3-603DF8BDB25F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44DA18FE-0638-4284-BAF3-603DF8BDB25F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44DA18FE-0638-4284-BAF3-603DF8BDB25F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{71366F5D-25D2-4719-AC9D-4D0B113F290E}.Debug|Any CPU.ActiveCfg = Debug
+		{71366F5D-25D2-4719-AC9D-4D0B113F290E}.Release|Any CPU.ActiveCfg = Release
+		{B1F1FA3E-AFF8-4CBE-B558-B8DEBE1A6604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1F1FA3E-AFF8-4CBE-B558-B8DEBE1A6604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1F1FA3E-AFF8-4CBE-B558-B8DEBE1A6604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1F1FA3E-AFF8-4CBE-B558-B8DEBE1A6604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84438C8E-ABDE-4248-9986-2BFA74CBB64D}.Debug|Any CPU.ActiveCfg = Debug
+		{84438C8E-ABDE-4248-9986-2BFA74CBB64D}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

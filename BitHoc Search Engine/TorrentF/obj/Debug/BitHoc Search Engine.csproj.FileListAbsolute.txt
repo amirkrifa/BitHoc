@@ -1,0 +1,26 @@
+C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\BitHoc Search Engine\TorrentF\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\BitHoc Search Engine\TorrentF\obj\Debug\Interop.PocketSOAP.dll
+C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\BitHoc Search Engine\TorrentF\obj\Debug\BitHoc Search Engine.csproj.ResolveComReference.cache
+C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\BitHoc Search Engine\TorrentF\obj\Debug\TorrentF.Main.MainForm.resources
+C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\BitHoc Search Engine\TorrentF\obj\Debug\TorrentF.Properties.Resources.resources
+C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\BitHoc Search Engine\TorrentF\obj\Debug\TorrentF.RelatedForms.FileDescription.resources
+C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\BitHoc Search Engine\TorrentF\obj\Debug\TorrentF.RelatedForms.PossibleRemoteHostsForm.resources
+C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\BitHoc Search Engine\TorrentF\obj\Debug\TorrentF.RelatedForms.RelatedTorrentDetails.resources
+C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\BitHoc Search Engine\TorrentF\obj\Debug\BitHoc Search Engine.csproj.GenerateResource.Cache
+C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\BitHoc Search Engine\TorrentF\bin\Debug\BitHoc Search Engine.exe
+C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\BitHoc Search Engine\TorrentF\bin\Debug\BitHoc Search Engine.pdb
+C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\BitHoc Search Engine\TorrentF\bin\Debug\Interop.PocketSOAP.dll
+C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\BitHoc Search Engine\TorrentF\obj\Debug\BitHoc Search Engine.exe
+C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\BitHoc Search Engine\TorrentF\obj\Debug\BitHoc Search Engine.pdb
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\TorrentF\bin\Debug\contents.jpg
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\TorrentF\bin\Debug\BitHoc Search Engine.exe
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\TorrentF\bin\Debug\BitHoc Search Engine.pdb
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\TorrentF\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\TorrentF\obj\Debug\TorrentF.Main.MainForm.resources
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\TorrentF\obj\Debug\TorrentF.Properties.Resources.resources
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\TorrentF\obj\Debug\TorrentF.RelatedForms.FileDescription.resources
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\TorrentF\obj\Debug\TorrentF.RelatedForms.PossibleRemoteHostsForm.resources
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\TorrentF\obj\Debug\TorrentF.RelatedForms.RelatedTorrentDetails.resources
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\TorrentF\obj\Debug\BitHoc Search Engine.csproj.GenerateResource.Cache
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\TorrentF\obj\Debug\BitHoc Search Engine.exe
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\TorrentF\obj\Debug\BitHoc Search Engine.pdb

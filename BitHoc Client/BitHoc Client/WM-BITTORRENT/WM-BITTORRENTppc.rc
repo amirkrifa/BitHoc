@@ -1,0 +1,432 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resdefce.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CONFIG_DLG DIALOG  0, 0, 187, 171
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BitHoc Configuration"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "+Listen Port:",IDC_STATIC_LP,13,23,43,8
+    EDITTEXT        IDC_EDIT_LISTEN_PORT,81,20,46,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "+Torrent Directory:",IDC_STATIC_TD,13,36,64,8
+    EDITTEXT        IDC_EDIT_TORRENT_DIRECTORY,22,46,105,12
+    LTEXT           "+Min Peers:",IDC_STATIC_MP,13,67,40,8
+    EDITTEXT        IDC_EDIT_MIN_PEERS,65,65,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "+Max Peers:",IDC_STATIC_MAX,13,80,42,8
+    EDITTEXT        IDC_EDIT_MAX_PEERS,65,80,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Save && Exit",IDC_BUTTON_SAVE_CONFIG,36,148,89,14
+    LTEXT           "+Max Downloaders:",IDC_STATIC_MD,13,100,66,8
+    EDITTEXT        IDC_EDIT_MAX_DOWNLOADERS,89,98,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "+Max Active Sessions:",IDC_STATIC_MAT,13,115,74,8
+    EDITTEXT        IDC_EDIT_MAX_ACTIVE_TORRENTS,89,113,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Continue Seeding.",IDC_RADIO_CONTINUE_SEEDING,"Button",BS_AUTORADIOBUTTON,9,130,75,10
+    CONTROL         "Ask for Seeding.",IDC_RADIO_STOP_SEEDING,"Button",BS_AUTORADIOBUTTON,85,130,65,10
+    GROUPBOX        "Configuration Fields",IDC_STATIC_GROUP,7,7,146,138
+END
+
+IDD_CREATE_TORRENT_DLG DIALOG  0, 0, 179, 137
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Creating a New Torrent File"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "+Source Data File:",IDC_STATIC,15,36,62,8
+    EDITTEXT        IDC_EDIT_SOURCE_FILE,15,47,102,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BUTTON_BROWSE_SF,120,46,30,13
+    LTEXT           "+Tracker Address:",IDC_STATIC,15,71,62,8
+    EDITTEXT        IDC_EDIT_TRACKER_ADDRESS,83,69,66,12,ES_AUTOHSCROLL
+    LTEXT           "+Torrent Name:",IDC_STATIC,15,90,54,8
+    EDITTEXT        IDC_EDIT_TORRENT_NAME,83,87,67,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Create The Torrent File",IDC_BUTTON_CREATE_TORRENT,43,108,82,14
+    CONTROL         "Directory",IDC_RADIO_DIRECTORY,"Button",BS_AUTORADIOBUTTON,14,21,45,10
+    CONTROL         "Single File",IDC_RADIO_SINGLE_FILE,"Button",BS_AUTORADIOBUTTON,94,21,50,10
+    GROUPBOX        "New Torrent File",IDC_STATIC,7,7,149,121
+END
+
+IDD_SEED_TORRENT_DLG DIALOG  0, 0, 167, 107
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Seeeding a Torrent"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "+ Select the Corresponding Torrent File:",IDC_STATIC,13,29,134,8
+    EDITTEXT        IDC_EDIT_TORRENT_TO_SEED,12,44,98,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BUTTON_BROWSE_FOR_THE_TORRENT_TO_SEED,112,44,36,12
+    PUSHBUTTON      "Start Sharing",IDC_BUTTON_START_SEEDING,90,73,58,15
+    GROUPBOX        "Sharing a New File",IDC_STATIC,7,12,145,79
+END
+
+IDD_DOWNLOADING_LIST DIALOG  0, 0, 149, 145
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Lis of Active Sharing Sessions"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    PUSHBUTTON      "Pause",IDC_BUTTON_PAUSE_DOWNLOAD,14,103,59,9
+    PUSHBUTTON      "Resume",IDC_BUTTON_RESUME_DOWNLOAD,76,103,59,9
+    CONTROL         "",IDC_LIST_TORRENTS,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,7,135,91,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Details",IDC_BUTTON_INFOS,76,115,59,9
+    PUSHBUTTON      "Delete",IDC_BUTTON_DELETE,14,115,58,9
+END
+
+IDD_LIST_INVOLVED_PEERS DIALOG  0, 0, 143, 146
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "List of Involved Peers"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    CONTROL         "",IDC_LIST_INVOLVED_PEERS,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,14,22,113,100,WS_EX_DLGMODALFRAME | WS_EX_CLIENTEDGE
+    GROUPBOX        "List of involved peers",IDC_STATIC,7,7,129,132
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_CONFIG_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 164
+    END
+
+    IDD_CREATE_TORRENT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 172
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_SEED_TORRENT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 100
+    END
+
+    IDD_DOWNLOADING_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 142
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 143
+    END
+
+    IDD_LIST_INVOLVED_PEERS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 136
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX_WIDE DIALOG  0, 0, 210, 129
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+CAPTION "About BitHoc"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "BitHoc Version 1.0",IDC_STATIC_1,69,24,70,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2009 INRIA - PLANETE",IDC_STATIC_2,41,40,121,8
+    LTEXT           "Developed by Amir Krifa ",IDC_STATIC_3,63,56,82,8
+    LTEXT           "Amir.Krifa@Sophia.inria.fr",IDC_STATIC_4,59,74,87,8
+END
+
+IDD_ABOUTBOX DIALOG  0, 0, 156, 129
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+EXSTYLE 0x80000000L
+CAPTION "About BitHoc"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    LTEXT           "Copyright (C) 2008 INRIA - PLANETE",IDC_STATIC_2,16,31,121,8
+    LTEXT           "BitHoc Version 1.0",IDC_STATIC_1,45,16,70,8,SS_NOPREFIX
+    LTEXT           "Developed by Amir Krifa ",IDC_STATIC_3,34,47,82,8
+    LTEXT           "Amir.Krifa@Sophia.inria.fr",IDC_STATIC_4,33,64,87,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX_WIDE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 203
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 149
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 122
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_WMBITTORRENT        ICON                    "WM-BITTORRENT.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU 
+BEGIN
+    POPUP "Start"
+    BEGIN
+        MENUITEM "Download a New File",         ID_MENU_START_BT
+        MENUITEM "Share a New File",            ID_START_SEEDATORRENT
+    END
+    POPUP "View"
+    BEGIN
+        MENUITEM "Downloading List",            ID_VIEW_DOWNLOAD_LIST
+        MENUITEM "List of Involved Nodes",      ID_VIEW_INVOLVEDPEERS
+    END
+    POPUP "Tools"
+    BEGIN
+        MENUITEM "Create New Torrent File",     ID_TOOLS_CREATENEWTORRENTFILE
+        MENUITEM "Set a New Configuration",     ID_TOOLS_CONFIG
+        MENUITEM "Choose BitHoc Version",       ID_TOOLS_CHOOSEBITTORRENTVERSION
+    END
+    MENUITEM "Help",                        ID_HELP
+    MENUITEM "About",                       IDM_HELP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_WMBITTORRENT ACCELERATORS 
+BEGIN
+    "A",            IDM_HELP_ABOUT,         VIRTKEY, CONTROL, NOINVERT
+    "Q",            IDM_OK,                 VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resdefce.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)\r\n"
+    "LANGUAGE 12, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""WMBITTORRENTppc.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_APP_TITLE           "BitHoc Client"
+    IDC_WMBITTORRENT        "WMBITTORRENT"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_OK                  "OK"
+    IDS_HELP                "HELP"
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_BITTORRENT_VERSION DIALOG  0, 0, 171, 145
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "BitHoc VERSION"
+FONT 8, "Verdana"
+BEGIN
+    DEFPUSHBUTTON   "OK",BITTORRENT_VERSION_OK,100,121,50,13
+    CONTROL         "Internet' algorithms version.",IDC_RADIO_INTERNET_VERSION,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,12,19,132,10
+    CONTROL         "Algorithms adapted to an AdHoc",IDC_RADIO_ADHOC_VERSION,
+                    "Button",BS_AUTORADIOBUTTON | WS_TABSTOP,11,31,143,10
+    LTEXT           "+Choking Interval:",IDC_STATIC,13,57,63,8
+    EDITTEXT        IDC_EDIT_CHOKING_INTERVAL,89,54,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "+Neighbors Scope:",IDC_STATIC,13,73,63,8
+    EDITTEXT        IDC_EDIT_SCOPE,89,72,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "+Number of Times to serve peers within ",IDC_STATIC,13,88,135,8
+    LTEXT           "the scope:",IDC_STATIC,16,100,41,8
+    EDITTEXT        IDC_EDIT_Q,89,99,40,12,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "BitHoc Version",IDC_STATIC,7,7,147,131
+    LTEXT           "network.",IDC_STATIC,23,41,30,8
+END
+
+IDD_DIALOG_DETAILS DIALOG  0, 0, 153, 164
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Some Details"
+FONT 8, "Verdana"
+BEGIN
+    LTEXT           "+Save In:",IDC_STATIC,9,76,44,8
+    LTEXT           "+Number of Pieces:",IDC_STATIC,9,90,69,8
+    LTEXT           "+Piece Size(byte):",IDC_STATIC,9,125,67,8
+    LTEXT           "+Slice Size(byte):",IDC_STATIC,9,141,69,8
+    LTEXT           "+Tracker URL:",IDC_STATIC,9,107,50,8
+    EDITTEXT        IDC_EDIT_SAVE_IN,54,74,84,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_NUMBER_PIECES,80,88,58,12,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_EDIT_TRACKER_URL,62,105,76,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_PIECE_SIZE,80,123,58,12,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_EDIT_SLICE_SIZE,80,140,59,12,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_EDIT_DOWNLOAD_SPEED,95,55,44,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "+Estimated Speed(Kb/s):",IDC_STATIC,9,56,84,8
+    CONTROL         "",IDC_PROGRESS_DOWNLOAD,"msctls_progress32",WS_BORDER,14,35,124,14,WS_EX_STATICEDGE
+    LTEXT           "+Downloading Progress:",IDC_STATIC_DP,9,23,80,8
+    GROUPBOX        "Torrent Details",IDC_STATIC,0,7,153,150
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG_BITTORRENT_VERSION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 154
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_DIALOG_DETAILS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 146
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 157
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+LANGUAGE 12, 1
+#pragma code_page(1252)
+//#include "WMBITTORRENTppc.rc2"  // non-Microsoft Visual C++ edited resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

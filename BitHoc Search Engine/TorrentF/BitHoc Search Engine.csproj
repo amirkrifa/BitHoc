@@ -1,0 +1,148 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{44DA18FE-0638-4284-BAF3-603DF8BDB25F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TorrentF</RootNamespace>
+    <AssemblyName>BitHoc Search Engine</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.02</OSVersion>
+    <DeployDirSuffix>BitHoc Search Engine</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FilesStatus\DataFileBox.cs" />
+    <Compile Include="FilesStatus\SharingSessionDetails.cs" />
+    <Compile Include="Managers\DownloadManager.cs" />
+    <Compile Include="FilesStatus\FileStatus.cs" />
+    <Compile Include="FilesStatus\FileDownloadStatus.cs" />
+    <Compile Include="Managers\PublishingManager.cs" />
+    <Compile Include="RelatedForms\FileDescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RelatedForms\FileDescription.Designer.cs">
+      <DependentUpon>FileDescription.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelatedForms\PossibleRemoteHostsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RelatedForms\PossibleRemoteHostsForm.Designer.cs">
+      <DependentUpon>PossibleRemoteHostsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RelatedForms\RelatedTorrentDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RelatedForms\RelatedTorrentDetails.Designer.cs">
+      <DependentUpon>RelatedTorrentDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThreadParam\FileDownloadingThreadParam.cs" />
+    <Compile Include="ThreadParam\FilePublisherThreadParam.cs" />
+    <Compile Include="FilesStatus\FilePublishingStatus.cs" />
+    <Compile Include="Managers\FilesLookupManager.cs" />
+    <Compile Include="Managers\FilesManager.cs" />
+    <Compile Include="ThreadParam\FilesUploadingThreadParam.cs" />
+    <Compile Include="Main\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Managers\ManagersContract.cs" />
+    <Compile Include="ThreadParam\MultiFileLookupThreadParam.cs" />
+    <Compile Include="Utilities\Configuration.cs" />
+    <Compile Include="Utilities\CreateTorrentFile.cs" />
+    <Compile Include="Utilities\ParseP2PMessages.cs" />
+    <Compile Include="Utilities\ParseTrackerMessage.cs" />
+    <Compile Include="Main\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Main\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelatedForms\FileDescription.resx">
+      <DependentUpon>FileDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelatedForms\PossibleRemoteHostsForm.resx">
+      <DependentUpon>PossibleRemoteHostsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RelatedForms\RelatedTorrentDetails.resx">
+      <DependentUpon>RelatedTorrentDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="ThreadParam\SingleFileLookupThreadParam.cs" />
+    <Compile Include="ThreadParam\ThreadParam.cs" />
+    <Compile Include="Managers\UploadingManager.cs" />
+    <Compile Include="Utilities\RemoteDHTCall.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="contents.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

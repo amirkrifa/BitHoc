@@ -1,0 +1,5 @@
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\MyInstallCustomAction\bin\Release\MyInstallCustomAction.dll
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\MyInstallCustomAction\bin\Release\MyInstallCustomAction.pdb
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\MyInstallCustomAction\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\MyInstallCustomAction\obj\Release\MyInstallCustomAction.dll
+C:\Documents and Settings\akrifa\Mes documents\Visual Studio 2008\Projects\BitHoc Search Engine\MyInstallCustomAction\obj\Release\MyInstallCustomAction.pdb
