@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SocketLibCE">
+</Property><Property Name="Solution File" Value="C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\SocketLibCE\SocketLibCE.sln">
+</Property><Property Name="User Options File" Value="C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\SocketLibCE\SocketLibCE.suo">
+</Property><Property Name="Date" Value="Tuesday, February 17, 2009">
+</Property><Property Name="Time" Value="14:52 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SocketLibCE.sln" Description="File successfully backed up as C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\SocketLibCE\SocketLibCE.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="SocketLibCE.suo" Description="File successfully backed up as C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\SocketLibCE\SocketLibCE.suo.old">
+</Event><Event ErrorLevel="1" Project="SocketLibCE" Source="SocketLibCE\SocketLibCE.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="0" Project="SocketLibCE" Source="SocketLibCE\SocketLibCE.vcproj" Description="Project file successfully backed up as 'C:\Documents and Settings\Internet\Mes documents\Visual Studio 2005\Projects\SocketLibCE\SocketLibCE\SocketLibCE.vcproj.8.00.old'.">
+</Event><Event ErrorLevel="0" Project="SocketLibCE" Source="SocketLibCE\SocketLibCE.vcproj" Description="Project upgraded successfully.">
+</Event><Event ErrorLevel="3" Project="SocketLibCE" Source="SocketLibCE\SocketLibCE.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SocketLibCE.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SocketLibCE.sln" Description="Converted">
+</Event></UpgradeLog>
